@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300..700&display=swap);
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  border: 10px solid;
+  border-color: #5fd2f3;
+  border-style: dotted;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+button:hover {
+  font-weight: 500;
+  background-color: #5fd2f3;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  background-image: url("img/pearls.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
